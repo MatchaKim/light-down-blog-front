@@ -35,8 +35,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
-      <nav style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 16px" }}>
+    <header style={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:'8px 16px',backgroundColor:'red'}}>
+      <nav >
         <span>
           <strong>My Blog</strong>
         </span>
